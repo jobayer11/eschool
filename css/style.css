@@ -1,0 +1,201 @@
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+/* common parts start */
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #000000;
+}
+/*padding*/
+.p-20{
+	padding: 20px;
+}
+/*padding left*/
+.pl-20{
+	padding-left: 20px;
+}
+/*padding right*/
+.pr-20{
+	padding-right: 20px;
+}
+/* common parts end */
+/*header section start*/
+header{
+	background-color: #F0FFF0;
+}
+.c_logo{
+	width: 200px;
+}
+.c_navbar_toggler:focus{
+	outline: none;
+}
+.menu li a{
+	font-size: 16px;
+	color: #000000 !important;
+}
+.c_menu_button{
+	padding: 0.375rem 1.5rem;
+	border-radius: 50px;
+	background-color: #21B573;
+}
+/*header section end*/
+
+/*slider section start*/
+.slider{
+	background-color: #F0FFF0;
+	padding: 60px 0px;
+}
+.t_contentf_p{
+	color: #FD511A;
+}
+.s_heading{
+	font-family: 'Poppins', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	line-height: 70px;
+}
+.s_heading span{
+	color: #21B573;
+}
+.t_contents_p{
+	color: #6C6B6B;
+	padding: 15px 0px;
+	letter-spacing: 0.8px;
+	line-height: 35px;
+}
+.c_sliderbtn,{
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	border-radius: 30px;
+	background-color: #21B573;
+	padding: 8px 40px;
+}
+/*slider section end*/
+/*topic section start*/
+.topic{
+	padding: 60px 0px;
+}
+.t_box{
+	width: 270px;
+	padding: 50px 0;
+	font-size: 24px;
+	background-color: #F8FFFB;
+	text-align: center;
+	border-radius: 10px;
+	transition: .6s ease-in-out;
+}
+.t_box:hover{
+	background-color: #ffffff;
+	box-shadow: 5px 5px 15px 5px lightgray;
+}
+.c_timg{
+	margin-bottom: 41px;
+}
+.c_timgstd{
+	margin-bottom: 42px;
+}
+.c_timgscale{
+	margin-bottom: 38px;
+}
+.t_box p{
+	margin-bottom: 0px;
+}
+.t_head{
+	font-weight: 500;
+}
+/*topic section end*/
+/*onlinecourse section start*/
+.onlinecourse{
+	padding: 60px 0px;
+}
+.oc_heading, .testi_heading{
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 65px;
+}
+.c_rowoc{
+	text-align: center;
+}
+.c_occard{
+	width: 360px;
+	padding: 20px;
+	border: 0;
+	border-radius: 16px;
+	box-shadow: 5px 5px 15px 5px lightgray;
+}
+.c_card-title{
+	margin-top: 25px;
+	margin-bottom: 10px;
+	color: #413960;
+}
+.c_card-text{
+	color: #585859;
+}
+.c_ocbtn{
+	font-family: 'Roboto', sans-serif;
+	width: 137px;
+	background-color: #21B573;
+	border-radius: 33px;
+}
+.starttime_seats{
+	padding-top: 40px;
+}
+.oc_starttime, .oc_seats{
+	font-weight: 500;
+	color: #585859;
+	margin-bottom: 0;
+}
+.c_ocimgicon{
+	width: 24px;
+	padding-right: 2px;
+}
+/*onlinecourse section end*/
+/*testimonial section start*/
+.testimonial{
+	padding: 60px 0px;
+}
+.c_testiimg{
+	width: 120px;
+}
+.testi_wcontent{
+	line-height: 30px;
+}
+/*testimonial section end*/
+/*footer start*/
+footer{
+	background-color: #282531;
+	padding: 60px 0px;
+}
+.c_footercol{
+	letter-spacing: 0.4px;
+}
+.f_wcontent{
+	color: #FFFFFF;
+	line-height: 30px;
+}
+.f_lheading{
+	font-size: 18px;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+.f_items li a{
+	color: #FFFFFF;
+	line-height: 30px;
+}
+/*footer end*/
+/*copyright section start*/
+.copyright{
+	background-color: #282531;
+	padding: 30px 0px;
+}
+.c_copy, .c_develop{
+	color: #FFFFFF;
+	margin: 0;
+}
+.c_develop{
+	letter-spacing: 1px;
+}
+.dev_name:hover{
+	color: #21B573;
+}
+/*copyright section end*/
